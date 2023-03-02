@@ -1,0 +1,114 @@
+button{
+    margin: auto;
+    background-color: white;
+    color: #7896c5;
+    border: 1px solid #7896c5;
+    border-radius: 3em;
+    font-size: auto;
+
+}
+
+button:hover{
+    margin: auto;
+    background-color: #7896c5;
+    color: white;
+    border: 1px solid #7896c5;
+}
+
+
+.fav{
+    margin: auto;
+    background-color: white;
+    color: #bfa65f;
+    border: 1px solid #bfa65f;
+}
+.fav:hover{
+    margin: auto;
+    background-color: #bfa65f;
+    color: white;
+    border: 1px solid #bfa65f;
+}
+
+
+.book:hover{
+    margin: auto;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+
+.book{
+    margin: auto;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.card-top{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width:0;
+    word-wrap: break-word;
+    background: white;
+    background-clip: border-box;
+    border: 1px solid black;
+    border-radius: .25rem;
+
+}
+
+
+
+.item{
+    margin: 0px 5em;
+    text-align:  center;
+}
+
+.item a:hover {
+    color:blue
+}
+
+.card {
+    padding: 1.5em;
+}
+
+.card img {
+    max-width:100%;
+    max-height:100%;
+    margin-bottom: 1.5em;
+    transition: 0.3s ease-in-out;
+}
+
+.card img:hover {
+    transition: 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+
+.card{
+    margin: 1em;
+
+}
+
+/*---Media Queries --*/
+/* bigger laptops */
+@media only screen and (min-width: 1024px) {
+    .container{
+        max-width:95%;
+     }
+     .cart-top{
+        max-width:75%;
+
+     }
+     
+ }
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 850px) and (max-width: 1024px) {
+}
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-width: 550px) and (max-width: 800px) {
+}
+/* mobiles (landscape and portrait) */
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+}

@@ -1,0 +1,124 @@
+.book{
+    margin: auto;
+    background-color: white;
+    color: #bfa65f;
+    border: 1px solid #bfa65f;
+}
+
+.book:hover{
+    margin: auto;
+    background-color: #bfa65f;
+    color: white;
+    border: 1px solid #bfa65f;
+}
+.btn-room-empty{
+    margin: auto;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5em;
+}
+.btn-room-empty:hover{
+    margin: auto;
+    background-color: #bfa65f;
+    color: white;
+    border: 1px solid #bfa65f;
+}
+
+.btn-room{
+    margin: auto;
+    color: black;
+    border: none;
+    background-color: none;
+}
+
+.btn-room:hover{
+    margin: auto;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+
+.btn-emptyCart{
+    font-size: 12px;
+    margin: auto;
+    background-color: white;
+    color: #ab2d3a;
+    border: 1px solid #ab2d3a;
+    border-radius: 5em;
+}
+.btn-emptyCart:hover{
+    margin: auto;
+    background-color: #ab2d3a;
+    color: white;
+    border: 1px solid #ab2d3a;
+}
+
+.card {
+    height: 60vh;
+    margin: 25px;
+    padding: 25px;
+}
+
+.center {
+    position: absolute;
+    top: 20%;
+    left: 40%; 
+    transform: translate(50%,50%);
+    text-align: center;
+}
+
+.center img{
+    text-decoration: none;
+    color: inherit;
+    border: none;
+    height: 162px;
+    width: 250px;
+    margin: 20px 0;
+
+}
+
+.h4,h6{
+    font-weight: bold;
+}
+
+.card-table {
+ position: relative;
+ display: flex;
+ flex-direction: column;
+ min-width: none;
+ word-wrap: break-word;
+ background-color: white;
+ background-clip: border-box;
+ border: 1px solid rgba(0,0,0,0,0.2);
+ border-radius: .25rem;
+}
+.center .btn{
+    font-size: 14px !important;
+    margin-top: 20px !important;
+    font-weight: 400;
+    padding: 12px 72px;
+    border-radius: 3px !important;
+}
+
+
+
+
+
+ /*---Media Queries --*/
+/* bigger laptops */
+@media only screen and (min-width: 1024px) {
+
+ }
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 800px) and (max-width: 1024px) {
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-width: 500px) and (max-width: 800px) {
+}
+
+/* mobiles (landscape and portrait) */
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+}

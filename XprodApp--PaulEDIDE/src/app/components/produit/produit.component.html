@@ -1,0 +1,53 @@
+<div class="card-top container-fluid">
+    <div class="container d-flex">
+    <div class="item">
+    <a>
+        <img style="width: 62px; margin-top: 5px;" src="http://localhost:8085/images/pc-asus.jpg" alt="All products">
+     <h6>All products</h6>
+    </a>
+    </div>
+    <div class="item">
+        <a>
+            <img style="width: 62px; margin-top:5px;" src="http://localhost:8085/images/phone.jpg" alt="Phone">
+         <h6>Phone</h6>
+        </a>
+        
+    </div>
+    <div class="item">
+        <a>
+            <img style="width: 62px; margin-top: 5px;"src="http://localhost:8085/images/unnamed03.jpg" alt="Components">
+         <h6>Watch</h6>
+        </a>
+        
+    </div>
+    </div>
+    </div>
+    
+    <h3 class="mt-5" style="text-align: center"> Découvrez nos produits</h3>
+    <div class ="container container-fluid mt-3">
+        <div class="container d-flex">
+    
+        <div class="row justify-content-center "  >
+            
+            <ng-container *ngFor="let item of productList">
+                   <div class="card col-md-3 align-items-center justify-content-center" style="margin-bottom: 1.5em; padding:2em;">
+                   <div class="align-items-center">
+                        <img src="http://localhost:8085/images/{{item.img}}" alt="">
+                    </div> 
+                    
+                    <h5>{{item.designation}}</h5>
+                    <p style="font-size:12px;">{{item.reference}}</p>
+                    <p><strong>Prix : </strong>{{item.prixVente}}€ </p>
+                    <div class="justify-content-center" style="text-align: center">
+                        <button class="btn btn-primary fav m-1 md-raised " (click)=actionAddToCart(item)>Ajouter au panier</button>
+                        <button class="btn btn-primary book m-1 md-raised " (click)=actionAddToCart(item)>Réserver la {{item.descriptif}} <i class="bi bi-arrow-right-circle"></i></button>
+    
+                    </div>
+    
+    
+                </div>
+            </ng-container>
+        </div>
+    </div>
+    
+    </div> 
